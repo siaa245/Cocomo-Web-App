@@ -1,0 +1,20 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #978f34;
+    border-radius: 10px;
+}
+
+input, select, button {
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+}
