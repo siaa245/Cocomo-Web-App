@@ -1,20 +1,21 @@
-/* styles.css */
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    margin: 50px;
+    margin: 10px;
+    background-color: pink;
 }
 
 .container {
     max-width: 400px;
     margin: auto;
     padding: 20px;
-    border: 1px solid #978f34;
+    border: 3px solid #978f34;
     border-radius: 10px;
 }
 
 input, select, button {
-    margin: 10px;
-    padding: 10px;
+    max-width: 100%;
+    box-sizing: border-box;
     width: 100%;
+    padding: 8px;
 }
